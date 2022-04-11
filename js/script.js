@@ -9,8 +9,7 @@ console.log(isComing);
 const hotelName = prompt('Please enter desired hotel name');
 console.log(hotelName);
 
-const guestName = "Манго";
+const guestName = 'Манго';
 const roomNumber = 207;
-const greeting =
-  "Welcome " + guestName + ", your room number is " + roomNumber + "!";
+const greeting = `Welcome ${guestName}, your room number is ${roomNumber}!`;
 console.log(greeting);
